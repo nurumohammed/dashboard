@@ -14,7 +14,6 @@ export type SalesProps = {
   email: string;
   saleAmount: string;
 };
-
 export default function SalesCard(props: SalesProps) {
   return (
     <div className="  flex flex-wrap justify-between gap-3 ">
